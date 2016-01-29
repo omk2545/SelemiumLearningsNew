@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite">
+	
+<listeners>
+  <!--   <listener class-name="com.expedia.listner.TestsListenerAdapter" /> -->
+    
+       <!--  <listener class-name="learning.selenium.listners.TestNGListners" /> -->
+  <!--   <listener class-name="learning.selenium.listners.ExtentReportNG" />  -->
+</listeners>
+
+
+
+<test name="ExtentReports">
+    <classes>
+        <class name="learning.selenium.tests.Test001" > </class>  
+    </classes>
+	<!-- <classes>
+		<class name="net.foodlink.testcases.TC002" > </class>
+	</classes> -->
+</test>	
+
+</suite>
+
